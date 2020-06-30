@@ -203,9 +203,18 @@ section {
   margin-bottom: 1px;
 }
 
+/** Responsive CSS changes */
 @media screen and (max-width: 768px) {
   .nav-menu {
     display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .activate {
+    display: block;
   }
 
   .grid-2,
